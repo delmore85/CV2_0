@@ -1,0 +1,208 @@
+﻿/*Main Page*/
+.jumbotron {
+	background-image: url('resource/jumbotron.gif');
+	background-size: 100%;
+	box-shadow: 4px 4px 10px #000;
+}
+.jumbotron .container h1 {
+	font-family: 'Noto Serif', serif;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+.jumbotron .container p {
+	font-family: 'Noto Serif', serif;
+	color: #fff;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+}
+.nav .container ul {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	margin-bottom: 50px;
+	margin-top: -20px;
+	background-color: #ddd;
+	text-transform:uppercase;
+}
+.nav .container ul li {
+	width: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.nav .container ul li a {
+	color: #000;
+}
+.row .col-lg-12 .main .container img {
+	float: left;
+	margin-right: 25px;
+	box-shadow: 4px 4px 10px #000;
+}
+.row .col-lg-12 .main .container h2 {
+	font-weight: 700;
+}
+.row .col-lg-12 .main {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	padding-bottom: 50px;
+}
+.row .col-lg-12 .main img{
+	height:25%;
+	width:25%;
+}
+.studies .container .head {
+	margin-bottom: 50px;
+}
+.studies .container .head h2 {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 700;
+}
+.studies .container .head p {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+}
+.studies .container .col-md-3 img {
+	box-shadow: 4px 4px 10px #000;
+}
+.studies .container .col-md-3 h3 {
+	text-align: center;
+	font-weight: 700;
+}
+.studies .container .col-md-3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.studies .container .col-md-3 p {
+	font-size: 17px;
+}
+.copyright .container .col-sm-12 p{
+	padding-top:50px;
+	font-family: 'Noto Serif', serif;
+	text-align: center;
+	font-size:12px;
+}
+
+/*About Page*/
+
+.about .container {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.about .container p{
+	font-size:17px;
+}
+.about .container h2{
+	font-weight:700;
+}
+
+/*Work Page*/
+.work .container {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.work .container p{
+	font-size:17px;
+}
+.work .container h2{
+	font-weight:700;
+}
+.work .container h3{
+	font-style:italic;
+}
+
+/*Training Page*/
+.train .container {
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top:50px;
+}
+.train .container p{
+	font-size:17px;
+}
+.train .container h2{
+	font-weight:700;
+}
+.train .container ul li {
+	list-style: none;
+}
+.train .container a:link {
+	color: #000;
+}
+.train .container a:visited {
+	color: #222;
+}
+.train .container  a:hover {
+	color: #BBB;
+}
+.train .container  ul a:active {
+	color: #333;
+}
+.train .container li input[id][type=checkbox] {
+	display: none;
+}
+input[id] ~ div[id] {
+    display: none;
+}
+input[id]:checked ~ div[id] {
+    display: block;
+}
+/*Contact Page*/
+.contact .container {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.contact .container p{
+	font-size:17px;
+}
+.contact .container h2{
+	font-weight:700;
+}
+.contact .container ul li {
+	list-style: none;
+}
+.contact .container a:link {
+	color: #000;
+}
+.contact .container a:visited {
+	color: #222;
+}
+.contact .container  a:hover {
+	color: #BBB;
+}
+.contact .container  ul a:active {
+	color: #333;
+}
+/*jQuery Page*/
+.nav2 .container .row .col-sm-4 ul {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	margin-bottom: 50px;
+	margin-top: -20px;
+	text-transform: uppercase;
+}
+.nav2 .container .row .col-sm-4 ul li {
+	width: 150px;
+	margin-left: 0px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.nav2 .container{
+	position:relative;
+	left: -50px;
+}
+.nav2 .container .row .col-sm-4{
+	background-color: #ddd;	
+}
+.nav2 .container .row .col-sm-4 h2{
+	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.nav2 .container .row .col-sm-8 p{
+	text-align:center;
+	padding-top:25%;
+	position:relative;
+}
+.nav2 .container .row .col-sm-8 p img{
+	height:50%;
+	width:50%;
+}
