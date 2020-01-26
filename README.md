@@ -6,3 +6,5 @@ For posterity, I also added on a page which includes some common jQuery implimen
 
 Created by: Dennis Elmore
 Date: 03/24/2015
+
+Update: 1/25/2020 - To date this is my most complete project and it wouldn't be perfect without a dedication cmmit to my supportive wife Nicole Elmore.
